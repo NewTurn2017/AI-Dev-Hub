@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "framer-motion": "^10.12.16",
@@ -18,7 +20,8 @@
     "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {
-    "eslint": "8.41.0",
-    "eslint-config-next": "11.0.0"
+    "eslint": "^8.41.0",
+    "eslint-config-next": "11.0.0",
+    "gh-pages": "^5.0.0"
   }
 }
